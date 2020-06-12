@@ -6,7 +6,9 @@ I am early on in my computer vision journey, but this is the first project I att
 The script utilizes ```OpenCV```, a popular library used in robotics for image processing. First the script reads in an image from a local directory and converts the image to grayscale to reduce the size and detail of the image. 
 
 <img src="./images/original.png"
-     style="marginLeft: 10%;width: 25%; height: 25%" />
+     width = "30%"
+     height = "30%"
+     style="marginLeft: 10%" />
 
 Next, I used ```canny edge detection``` to find important images that define the features of the image and display them against a black background.
 
