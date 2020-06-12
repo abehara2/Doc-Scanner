@@ -6,4 +6,4 @@ I am early on in my computer vision journey, but this is the first project I att
 The script utilizes OpenCV, a popular library used in robotics for image processing. First the script reads in an image from a local directory. 
 
 <img src="./images/original.png"
-     style="float: middle;" />
+     style="float: middle;width: 25%, height: 25%" />
