@@ -12,6 +12,7 @@ Next, I used canny edge detection to find important images that define the featu
 
 <img src="./images/cannyedges.png"
      style="marginLeft: 10%;width: 25%; height: 25%" />
+     
 Using the canny edges and thresholding, I am able to use them to find and draw contours around the image. I decided to only take external contours as I only wanted the outline of the paper and used a simple chain approximation as I only needed endpoints for the line segments to find the corners. This did not work as expected for me because the image was not perfectly rectangular and required me to do some extra work for corner detection. This is what all of the contours of the image looked like.
 
 <img src="./images/allcontours.png"
