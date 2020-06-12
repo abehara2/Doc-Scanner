@@ -6,6 +6,7 @@ I am early on in my computer vision journey, but this is the first project I att
 The script utilizes ```OpenCV```, a popular library used in robotics for image processing. First the script reads in an image from a local directory and converts the image to grayscale to reduce the size and detail of the image. 
 
 <img src="./images/original.png"
+     align="center"
      width = "30%"
      height = "30%"
      float = "middle"
@@ -15,6 +16,7 @@ Next, I used ```canny edge detection``` to find important images that define the
 
 <img src="./images/cannyedges.png"
 width = "30%"
+     align="center"
      height = "30%"
      style="marginLeft: 10%;width: 25%; height: 25%" />
      
@@ -22,6 +24,7 @@ Using the canny edges and thresholding, I am able to use them to find and ```dra
 
 <img src="./images/allcontours.png"
 width = "30%"
+     align="center"
      height = "30%"
      style="marginLefet: 10%;width: 25%; height: 25%" />
      
@@ -30,6 +33,7 @@ As you can see, there were many contours that OpenCV detected. In order to get t
 
 <img src="./images/countourandcorners.png"
 width = "30%"
+     align="center"
      height = "30%"
      style="marginLefet: 10%;width: 25%; height: 25%" />
      
@@ -39,6 +43,7 @@ It is important to note that the image does not look perfect as the paper was be
 
 <img src="./images/final.png"
 width = "30%"
+     align="center"
      height = "30%"
      style="marginLefet: 10%;width: 25%; height: 25%" />
 
