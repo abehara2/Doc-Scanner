@@ -23,3 +23,6 @@ As you can see, there were many contours that OpenCV detected. In order to get t
 
 <img src="./images/countourandcorners.png"
      style="marginLefet: 10%;width: 25%; height: 25%" />
+     
+The last step in the script was to actually perform the non affine transformation of the four corners. I calculated the distances in between the corners of the original image and used that to construct a new image with a corresponding width and hieght. Using ``` python 
+warpPerspective```, I was able to construct a warped image onto a new file and write it to local storage.
