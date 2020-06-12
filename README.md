@@ -25,8 +25,10 @@ As you can see, there were many contours that OpenCV detected. In order to get t
      style="marginLefet: 10%;width: 25%; height: 25%" />
      
 The last step in the script was to actually perform the ```non affine transformation``` of the four corners. I calculated the distances in between the corners of the original image and used that to construct a new image with a corresponding width and hieght. Using openCV functions, I was able to construct a warped image onto a new file and write it to local storage. Here is what the output looked like.
+It is important to note that the image does not look perfect as the paper was bent and thus the image looks slightly warped. I tried using other nicer images, but the Ubuntu VM I was using corrupted all the photos my took. Overall I thought this was a great learning experience and is just the beginning on my journey to becoming great at computer vision
 
 
 <img src="./images/final.png"
      style="marginLefet: 10%;width: 25%; height: 25%" />
-     
+
+
